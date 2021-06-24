@@ -48,6 +48,16 @@ Propriedades:
     ]
 }
 ```
+
+- Regras para cada campo:
+  - firstName min = 3 | max = 100 caracteres e não pode ser vazio.
+  - lastName min = 3 | max = 100 caracteres e não pode ser vazio.
+  - cpf não pode ser vazio e deve seguir um padrão real de cpf.
+  - birthDate deve ser uma data com dia, mês e ano.
+  - phones:
+    - type deve seguir o padrão informado nessa doc "Types para phones".
+    - number min = 13 | max = 14 caracteres númericos e não pode ser vazio.
+
 Types para phones:
 
 ```
