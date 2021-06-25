@@ -8,7 +8,7 @@ public class PhoneUtils {
 
     private static final Long PHONE_ID = 1L;
     private static final PhoneType PHONE_TYPE = PhoneType.MOBILE;
-    private static final  String PHONE_NUMBER = "(21)999999999";
+    private static final  String PHONE_NUMBER = "(11)0000011010";
 
     public static PhoneDTO createFakeDTO() {
         return PhoneDTO.builder()
